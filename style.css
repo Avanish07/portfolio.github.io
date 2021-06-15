@@ -35,7 +35,7 @@ html{
 
 .navbar.sticky{
     padding: 12px 0;
-    background: crimson;
+    background: rgb(190, 220, 20);
 }
 
 .navbar .max-width{
