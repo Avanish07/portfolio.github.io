@@ -136,6 +136,7 @@ html{
     top: 30%;
     right: 0%;
     width: 210px;
+    overflow:hidden;
     display: flex;
     flex-direction: column;
   
@@ -482,6 +483,13 @@ section .title::after{
     align-items: center;
     justify-content: space-between;
 }
+
+.skills .skills-content .left p{
+    text-align: justify;
+    font-family:'poppins',sans-serif;
+  
+}
+
 
 .skills .skills-content .right span{
     font-weight: 500;
@@ -831,6 +839,9 @@ footer span a:hover{
         color: crimson;
     }
 
+
+   
+
     
 
 }
@@ -854,6 +865,19 @@ footer span a:hover{
         color: crimson;
     
     }
+
+    
+    .about .about-content .right .text{
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    
+    .about .about-content .right .text span{
+        color: crimson;
+        font-size: 17px; 
+    }
+
       
     
 
