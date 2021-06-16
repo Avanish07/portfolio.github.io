@@ -35,7 +35,7 @@ html{
 
 .navbar.sticky{
     padding: 12px 0;
-    background: rgb(190, 220, 20);
+    background: crimson;
 }
 
 .navbar .max-width{
@@ -135,7 +135,7 @@ html{
     position: absolute;
     top: 30%;
     right: 0%;
-    width: 220px;
+    width: 210px;
     display: flex;
     flex-direction: column;
   
@@ -145,7 +145,7 @@ html{
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px;
-    font-size: 22px;
+    font-size: 15px;
     font-family: 'oswald',sans-serif;
     margin: 2px;
     text-align: left;
@@ -162,11 +162,11 @@ html{
 .social a i{
     margin-right: 25px;
     background-color: white;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     color: black;
     text-align: center;
-    line-height: 40px;
+    line-height: 30px;
     border-radius: 50%;
 }
 
@@ -392,7 +392,7 @@ section .title::after{
 
 
 
-/*Services style*/
+/*-------------------Services style-----------------------------------*/
 
 .services{
     color: #fff;
@@ -454,7 +454,7 @@ section .title::after{
 
 
 
-/* skills section styling */
+/* ----------------skills section styling------------------- */
  
 .skills .title::after{
     content:"what i know";
@@ -536,7 +536,7 @@ section .title::after{
 
 
 
-/* Contact section styling */
+/*--------------------- Contact section styling -----------------------*/
 
 .contact .title::after{
     content: "get in touch";
@@ -657,7 +657,7 @@ section .title::after{
 
 
 
-/*  footer section styling*/ 
+/*-------------------footer section styling---------------------*/ 
 
 footer{
     background: #111;
@@ -679,7 +679,7 @@ footer span a:hover{
 
 
 
-/* responsive media query*/
+/* ------------responsive media query-------------------*/
 
 
 @media(max-width: 1300px){
@@ -830,6 +830,7 @@ footer span a:hover{
     .navbar.sticky .menu li a:hover{
         color: crimson;
     }
+
     
 
 }
@@ -851,7 +852,9 @@ footer span a:hover{
     } 
     .navbar.sticky .menu li a:hover{
         color: crimson;
+    
     }
+      
     
 
 }
