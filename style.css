@@ -260,8 +260,8 @@ html{
     display: inline-block;
     background: crimson;
     color: #fff;
-    font-size: 23px;
-    padding:12px 36px;
+    font-size: 20px;
+    padding:10px 25px;
     margin-top: 20px;
     border-radius: 6px;
     border: 2px solid crimson;
@@ -508,7 +508,6 @@ section .title::after{
     content: "";
     position: absolute;
     height: 100%;
-
     left: 0;
     top: 0;
     background: crimson;
@@ -876,6 +875,12 @@ footer span a:hover{
     .about .about-content .right .text span{
         color: crimson;
         font-size: 17px; 
+    }
+
+
+    .home .home-content .collaborations{
+        font-size: 15px;
+        padding: 8px;
     }
 
       
